@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weer App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weer App</h1>
+        <input type="text" id="cityInput" placeholder="Voer een stad in...">
+        <button onclick="getWeather()">Zoek weer</button>
+        <div id="weatherResult">
+            <h2 id="cityName"></h2>
+            <p id="temperature"></p>
+            <p id="description"></p>
+            <img id="weatherIcon" src="" alt="">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
